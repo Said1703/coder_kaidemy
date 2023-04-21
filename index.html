@@ -40,12 +40,22 @@
 
     <!--Main-->
     <main class="fondoimagen">
-        <div class="contenedor-main">
-            <h2>Todo lo que necesitas lo tienes aquí</h2>
-            <h1>Mejora cada día</h1>
-            <h3>Puedes empezar en Kaidemy en las primeras 2 clases</h3>
+        <div class="contenedor-main container-fluid">
+
+            <div>
+                <div>
+                    <h2>Todo lo que necesitas lo tienes aquí</h2>
+                </div>
+                <div>
+                    <h1>Mejora cada día</h1>
+                </div>
+                <div>
+                    <h3>Puedes empezar en Kaidemy en las primeras 2 clases</h3>
+                </div>
+            </div>
             <a href="pages/empezar.html"><input class="boton-primario" type="button" value="Empieza grátis"></a>
         </div>
+
 
 
     </main>
@@ -106,12 +116,36 @@
         </div> <!--Sección de Producto-->
     </section>
 
+    <section class="container-fluid-xl py-5 bg-black">
+        <h1 class="text-center my-5 text-light">Kaidemy Premium</h1>
+        <div class="row p-5 align-items-center">
+            <div class="col-md-6">
+                <img class="img-fluid" src="img/Fondo Kaidemy Premium.jpg" alt="fondo premium" title="fondo premium">
+            </div>
 
-    <section class="boxpremium p-6">
+            <div class="col-md-6 text-light gap-5">
+                <img class="pt-5" src="img/logodoradoblanco.png" alt="Kaidemy Premium Negro" title="Kaidemy"
+                    style="width: 30%;">
+                <p class="pt-5 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque accusantium
+                    nesciunt
+                    repellendus
+                    delectus fuga debitis asperiores recusandae id tempore ratione, deleniti, beatae natus, reiciendis
+                    expedita odio ipsa! Molestiae, ex illo.
+                    At molestiae, fugiat explicabo corrupti amet modi enim quo dignissimos repudiandae magni mollitia
+                    similique eos sed adipisci autem iusto voluptatum commodi! Cumque sapiente eveniet officia nesciunt
+                    labore accusantium soluta dicta.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--<section class="boxpremium p-6"> kaidemy premium
         <div class="fondo-kaidemy-premium">
             <img class="img-kaidemy-premium" src="img/Fondo Kaidemy Premium.jpg">
         </div>
-        <div><!--Sección de Kaidemy Premium-->
+        <div>
             <div>
                 <img src="img/logodoradoblanco.png" alt="Kaidemy Premium Negro" title="Kaidemy" style="width: 30%;">
             </div>
@@ -128,8 +162,7 @@
                 <input class="boton-premium" type="button" value="Hazte Premium">
             </div>
         </div>
-        <!--Sección de Kaidemy Premium-->
-    </section>
+    </section> -->
 
 
     <section class="profesores-container"> <!--PROFESORES-->
@@ -178,11 +211,11 @@
 
     <section class="container text-center"><!--testimonios-->
         <h1 class="pt-5 pb-5">Testimonios</h1>
-        <div class="row row-cols-2">
+        <div class="row row-cols-2 testimonio_master">
             <div> <!--testimonio1-->
                 <div class="testimonio_tarjeta card mb-3 p-5" style="max-width: 540px;"> <!--prueba-->
                     <div class="row g-0">
-                        <div class="col-md-5">
+                        <div class="col-md-5 testimonio1">
                             <img src="/img/testimonio1.jpg" class="img-fluid rounded-center testimonio_img"
                                 alt="profe-carina w-50%">
                             <h2 class="card-title">Actriz</h2>
@@ -206,15 +239,14 @@
                         <div class="col-md-5">
                             <img src="/img/testimonio 2.jpg" class="img-fluid rounded-center testimonio_img"
                                 alt="profe-carina w-50%">
-                            <h2 class="card-title">Programadora</h2>
+                            <h2 class="card-title">Developer</h2>
                         </div>
                         <div class="col-md-7 align-items-center align-self-center">
                             <div class="card-body">
                                 <h2 class="card-title">Carla Guerra</h2>
                                 <p class="card-text">Manejo equipos de programadores juniors y siempre fui muy timida,
                                     entre
-                                    a Kaidemy porque pensé que podia ayudarme en dejar de ser timida y mejorar en mi
-                                    liderazgo. Lo hago por mi misma y para otras personas.</p>
+                                    a Kaidemy porque pensé que ...</p>
                             </div>
                         </div>
                     </div>
@@ -234,9 +266,7 @@
                                 <h2 class="card-title">Javier Andrade</h2>
                                 <p class="card-text">Llegue a este pais hace unos 3 años, y bueno en mi trabajo tengo
                                     largas
-                                    jornadas y sumando al cansancio y que estoy solo aquí, choca un poco, por lo que
-                                    entré a
-                                    Kaidemy y me fue bastante bien, porque pude autocontrolarme</p>
+                                    jornadas y sumando al cansancio...</p>
                             </div>
                         </div>
                     </div>
@@ -255,11 +285,7 @@
                             <div class="card-body">
                                 <h2 class="card-title">Akiko Kimura</h2>
                                 <p class="card-text">Nací en Tokio-Japon y soy parte de una ONG en donde repartimos
-                                    medicinas naturales a paises más pobres del mundo e incluso les enseñamos a crear
-                                    sus
-                                    medicinas, pero el enfrentamiento a historias desgarradoras, necesitaba poner orden
-                                    en
-                                    mi vida, en Kaidemy aprendí a meditar y tranquilizar mi mente en muy poco tiempo.
+                                    medicinas naturales a paises más...
                                 </p>
                             </div>
                         </div>
@@ -269,16 +295,16 @@
         </div>
     </section>
 
-    <footer class="boxfooter container-fluid"><!--Pie de Página-->
-        <div class="container text-center">
+    <!--<footer class="boxfooter container-fluid">
+        <div class="boxfooter_interno container text-center">
             <div class="row">
-                <div class="col col-2 pt-5 pb-5">
+                <div class="logo_footer col col-2 pt-5 pb-5">
                     <img src="img/logoblanco.png" alt="logoblanco" title="logoblanco" style="width: 100%;">
                 </div>
-                <div class="col col-4">
+                <div class="col col-sm-4">
 
                 </div>
-                <div class="col text-start fs-4 pt-5">
+                <div class="col col-sm text-start fs-4 pt-5">
                     <ul class="texto-centrado-footer1">
                         <li>Artes Escenicas</li>
                         <li>Oratoria y Liderazgo</li>
@@ -288,7 +314,7 @@
                 </div>
             </div>
             <div class="row ">
-                <div class="col">
+                <div class="col col-sm">
                     <p class="text-start fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
                         adipisci
                         sint labore
@@ -296,7 +322,7 @@
                         libero, nobis, nam quasi temporibus, mollitia beatae placeat totam cum! Molestias excepturi quis
                         rem, cupiditate aliquid beatae!</p>
                 </div>
-                <div class="col condiciones_footer text-start fs-4">
+                <div class="col col-sm condiciones_footer text-start fs-4">
                     <h5><a href="pages/cursos.html">Preguntas Frecuentes</a></h5>
                     <h5><a href="pages/cursos.html">Terminos y condiciones</a></h5>
                     <h5><a href="pages/cursos.html">Privacidad</a></h5>
@@ -314,7 +340,117 @@
                 </div>
 
             </div>
-    </footer> <!--Pie de Página-->
+    </footer>--> <!--Pie de Página-->
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-black ">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+            <div class="me-5 d-none d-lg-block">
+                <img src="img/logoblanco.png" alt="logoblanco" title="logoblanco" style="width: 30%;">
+            </div>
+
+
+
+            <div>
+                <a href="https://www.facebook.com/" target="Facebook"><img alt="Siguenos en Facebook"
+                        src="iconos/facebook_Mesa de trabajo 1.png" class="p-1" width=32 height=32 /></a>
+                <a href="https://www.instagram.com/" target="Instagram"><img alt="Siguenos en Instagram"
+                        src="iconos/instagram_Mesa de trabajo 1.png" class="p-1" width=32 height=32 /></a>
+                <a href="https://www.youtube.com/" target="Youtube"><img alt="Siguenos en Youtube"
+                        src="iconos/youtube.png" class="p-1" width=32 height=32 /></a>
+                </a>
+            </div>
+
+        </section>
+
+
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+
+                <div class="row mt-3">
+
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <h4 class="text-uppercase fw-bold mb-4 text-light fs-4">
+                            Kaidemy
+                        </h4>
+                        <p class="text-light">
+                            Aquí en Kaidemy puedes encontrar todo lo que necesitas y más, mejora tu salud a través de
+                            nuestros cursos
+                        </p>
+                    </div>
+
+
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h4 class="text-uppercase fw-bold mb-4 text-light">
+                            Cursos
+                        </h4>
+                        <p class="text-light">
+                            <a href="pages/cursos.html" class="text-reset text-decoration-none">Artes Escenicas</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="pages/cursos.html" class="text-reset text-decoration-none">Oratoria y liderazgo</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="pages/cursos.html" class="text-reset text-decoration-none">Coaching & PNL</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="pages/cursos.html" class="text-reset text-decoration-none">Meditación</a>
+                        </p>
+                    </div>
+
+
+                    <!-- ayuda -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h4 class="text-uppercase fw-bold mb-4 text-light">
+                            Ayuda
+                        </h4>
+                        <p class="text-light">
+                            <a href="#" class="text-reset text-decoration-none">Terminos y condiciones</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="#" class="text-reset text-decoration-none">Pagos</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="#" class="text-reset text-decoration-none">Alumnos</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="#!" class="text-reset text-decoration-none">Horarios</a>
+                        </p>
+                    </div>
+                    <!-- ayuda -->
+
+                    <!-- contacto -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <h4 class="text-uppercase fw-bold mb-4 text-light">Contacto</h4>
+                        <p class="text-light"><i class="fas fa-home me-3"></i> Miraflores-Lima, Perú</p>
+                        <p class="text-light">
+                            <i class="fas fa-envelope me-3 text-light"></i>
+                            contactos@Kaidemy.com
+                        </p>
+                        <p class="text-light"><i class="fas fa-phone me-3 text-light"></i> +01 234 567 88</p>
+                        <p class="text-light"><i class="fas fa-print me-3 text-light"></i> +01 234 567 89</p>
+                    </div>
+                    <!-- contacto -->
+                </div>
+
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4 text-light">
+            <p>© 2023 Kaidemy</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
 
     <script src="js/bootstrap.min.js"></script>
 

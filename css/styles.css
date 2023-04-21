@@ -51,6 +51,14 @@ body {
 
 /*menu*/
 
+@media screen and (max-width: 480px) {
+    .fondoimagen {
+        display: grid;
+        grid-template-rows: 100%;
+        text-align: center;
+    }
+}
+
 
 .fondoimagen {
     background-image: url(/img/fondo2.jpg);
@@ -72,6 +80,8 @@ body {
     padding: 250px;
 }
 
+
+
 .menu {
     list-style-type: none;
     font-size: 18px;
@@ -85,6 +95,14 @@ body {
     margin: auto;
     position: fixed;
     z-index: 1000;
+}
+
+@media screen and (max-width: 480px) {
+    .menu li {
+        height: 100px;
+        flex-direction: column;
+        text-align: center;
+    }
 }
 
 .menu .boton-primario {
@@ -226,6 +244,33 @@ body {
     left: 100px;
 }
 
+@media screen and (max-width: 480px) {
+    .contenedor-main {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        text-align: start;
+    }
+
+    .contenedor-main h2 {
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contenedor-main h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .fondoimagen {
+        background-image: url(/img/fondo2.jpg);
+        background-size: 1200px;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+    }
+}
+
 .flex-container {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
@@ -236,6 +281,13 @@ body {
     align-content: center;
     margin-top: 4rem;
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .flex-container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
 }
 
 .titulo-container {
@@ -275,6 +327,21 @@ body {
     padding-bottom: 30px;
     color: var(--blanco);
     gap: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .boxpremium {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .img-kaidemy-premium {
+        width: 200px;
+    }
+
+    .fondo-kaidemy-premium {
+        justify-content: center;
+    }
 }
 
 .fondo-kaidemy-premium {
@@ -365,9 +432,17 @@ main {
     border-radius: 100%;
 }
 
+@media screen and (max-width:480px) {
+    .testimonio_master {
+        display: flex;
+        flex-direction: column row-reverse;
+    }
+
+}
+
 /* footer*/
 
-.boxfooter1 {
+/*.boxfooter1 {
     text-align: start;
     align-items: center;
 }
@@ -388,4 +463,7 @@ main {
 .texto-centrado-footer1 li {
     position: relative;
     left: 100px;
+} */
+.redes_sociales {
+    color: var(--blanco);
 }
