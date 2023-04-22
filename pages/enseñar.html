@@ -18,37 +18,44 @@
 
 <body>
 
-    <!--Header-->
-    <header class="menu-kaidemy">
-        <nav>
-            <ul class="menu">
-                <li><a href="/index.html"><img class="logohome" src="../img/logoblanco.png"></a></li>
-
-                <li><a href="./cursos.html">Cursos</a></li>
-                <li><a href="./enseñar.html">Enseña en Kaidemy</a></li>
-                <li><a href="./premium.html">Kaidemy Premium</a></li>
-
-                <li><a href="#"><input class="boton-secundario" type="button" value="Iniciar sesión"></a></li>
-                <li><a href="./empezar.html"><input class="boton-primario" type="button" value="Empieza grátis"></a>
-                </li>
-
-            </ul>
-        </nav>
+    <header class="py-4 bg-black"> <!--Header-->
+        <div class="text-center">
+            <li><a class="align-self-center" href="../index.html"><img width="15%" src="../img/logoblanco.png"></a></li>
+        </div><!--Header-->
     </header>
+    <div class="border-top py-4 bg-black"> <!--navegacion + responsivo desplegable-->
+        <div class="bg-black navbar navbar-expand-lg container-fluid navbar-dark">
+            <a class="navbar-brand d-lg-none fs-2 fw-bold text-uppercase text-light" href="../index.html">
+                Sobre Kaidemy
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <!--Header-->
+            <div id="navegacion" class="collapse navbar-collapse">
+                <nav
+                    class="navbar-nav container-fluid d-flex flex-md-row justify-content-md-around align-self-center text-center bg-black">
+                    <li><a class="text-light text-decoration-none fs-3 pt-3 pb-3" href="../pages/cursos.html">Cursos</a>
+                    </li>
+                    <li><a class="text-light text-decoration-none fs-3 pt-3 pb-3" href="../pages/enseñar.html">Enseña en
+                            Kaidemy</a>
+                    </li>
+                    <li><a class="text-light text-decoration-none fs-3 pt-3 pb-3" href="../pages/premium.html">Kaidemy
+                            Premium</a>
+                    </li>
 
-    <!--Main-->
-    <main class="fondoimagen_enseña">
-        <div class="contenedor-main">
-            <h2>Transmite tus conocimientos</h2>
-            <h3>Puedes monetizar tus conocimientos a través de la plataforma Kaidemy</h3>
+
+                    <li><a href="../pages/empezar.html"><input class="boton-primario pt-3 pb-3" type="button"
+                                value="Empieza grátis"></a>
+                    </li>
+
+                </nav>
+            </div>
         </div>
+    </div> <!--navegacion + responsivo desplegable-->
 
 
-    </main>
-
-    <!--main-->
+    <div class="hero2"></div> <!--contenedor principal-->
 
 
     <section>
@@ -88,11 +95,11 @@
 
     <section class="container text-center"><!--testimonios-->
         <h1 class="pt-5 pb-5">Testimonios</h1>
-        <div class="row row-cols-2">
+        <div class="row row-cols-2 testimonio_master">
             <div> <!--testimonio1-->
                 <div class="testimonio_tarjeta card mb-3 p-5" style="max-width: 540px;"> <!--prueba-->
                     <div class="row g-0">
-                        <div class="col-md-5">
+                        <div class="col-md-5 testimonio1">
                             <img src="/img/testimonio1.jpg" class="img-fluid rounded-center testimonio_img"
                                 alt="profe-carina w-50%">
                             <h2 class="card-title">Actriz</h2>
@@ -116,15 +123,14 @@
                         <div class="col-md-5">
                             <img src="/img/testimonio 2.jpg" class="img-fluid rounded-center testimonio_img"
                                 alt="profe-carina w-50%">
-                            <h2 class="card-title">Programadora</h2>
+                            <h2 class="card-title">Developer</h2>
                         </div>
                         <div class="col-md-7 align-items-center align-self-center">
                             <div class="card-body">
                                 <h2 class="card-title">Carla Guerra</h2>
                                 <p class="card-text">Manejo equipos de programadores juniors y siempre fui muy timida,
                                     entre
-                                    a Kaidemy porque pensé que podia ayudarme en dejar de ser timida y mejorar en mi
-                                    liderazgo. Lo hago por mi misma y para otras personas.</p>
+                                    a Kaidemy porque pensé que ...</p>
                             </div>
                         </div>
                     </div>
@@ -144,9 +150,7 @@
                                 <h2 class="card-title">Javier Andrade</h2>
                                 <p class="card-text">Llegue a este pais hace unos 3 años, y bueno en mi trabajo tengo
                                     largas
-                                    jornadas y sumando al cansancio y que estoy solo aquí, choca un poco, por lo que
-                                    entré a
-                                    Kaidemy y me fue bastante bien, porque pude autocontrolarme</p>
+                                    jornadas y sumando...</p>
                             </div>
                         </div>
                     </div>
@@ -165,11 +169,7 @@
                             <div class="card-body">
                                 <h2 class="card-title">Akiko Kimura</h2>
                                 <p class="card-text">Nací en Tokio-Japon y soy parte de una ONG en donde repartimos
-                                    medicinas naturales a paises más pobres del mundo e incluso les enseñamos a crear
-                                    sus
-                                    medicinas, pero el enfrentamiento a historias desgarradoras, necesitaba poner orden
-                                    en
-                                    mi vida, en Kaidemy aprendí a meditar y tranquilizar mi mente en muy poco tiempo.
+                                    medicinas naturales a paises más...
                                 </p>
                             </div>
                         </div>
@@ -180,57 +180,36 @@
     </section>
 
 
-    <section>
-        <h2 class="text-center">Contactos</h2>
-        <div class="container card mb-5">
-            <form class="formulario sm-6 p-4"><!--formulario-->
-                <div class="row fs-3">
-                    <div class="col mb-5 text-end mt-5">
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre">
-                    </div>
-                    <div class="col mb-5 fs-3 text-start mt-5">
-                        <label for="apellidos">Apellidos</label>
-                        <input type="text" name="apellidos" maxlength="20">
-                    </div>
 
+    <section class="mb-5"> <!--formulario nuevo-->
+        <h2 class="text-center pb-4">Contactos</h2>
+        <div class="container card p-5 shadow p-3 mb-5 bg-body-tertiary rounded">
+            <form>
+                <div class="mb-3 p-2">
+                    <label class="form-label fs-3" for="nombre">Nombre y apellidos</label>
+                    <input placeholder="Ejemplo: Juan Perez" class="form-control form-control-lg" type="text"
+                        name="nombre">
                 </div>
-                <div class="row text-center">
-                    <div class="col mb-5 fs-3 text-end">
-                        <label for="correo">Correo</label>
-                        <input type="email" name="correo" maxlength="20">
-                    </div>
-                    <div class="col mb-5 fs-3 text-start">
-                        <label for="numero">Teléfono</label>
-                        <input type="number" name="numero">
-                    </div>
 
+                <div class="mb-3 p-2">
+                    <label class="form-label fs-3" for="nombre">Email</label>
+                    <input placeholder="Ejemplo: nombre@gmail.com" class="form-control form-control-lg" type="email"
+                        name="email">
+                </div>
 
+                <div class="mb-3 p-2">
+                    <label class="form-label fs-3" for="descripcion">Descripción</label>
+                    <textarea placeholder="Por favor escriba su mensaje" class="form-control form-control-lg"
+                        id="description" cols="20" rows="7" name="descripcion"> </textarea>
                 </div>
-                <div class="row text-center fs-3">
-                    <div class="col-5 mb-4">
-                        <select name="paises">
-                            <option value="selecciona">______</option>
-                            <option value="pe">Perú</option>
-                            <option value="ar">Argentina</option>
-                            <option value="me">México</option>
-                            <option value="col">Colombia</option>
-                            <option value="chi">Chile</option>
-                            <option value="otros">Otros</option>
-                        </select>
-                    </div>
-                    <div class="col mb-4 fs-3">
-                        <label for="curso">Dirección</label>
-                        <input type="text" name="direccion" cols="10" rows="5">
-                    </div>
-                </div>
-            </form><!--formulario-->
-            <div class="text-center mb-5">
+
+            </form>
+            <div class="text-center mb-4">
                 <input class="boton-primario" type="button" value="enviar">
             </div>
 
         </div>
-    </section>
+    </section> <!--formulario-->
 
 
     <!-- Footer -->
@@ -238,18 +217,18 @@
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
             <div class="me-5 d-none d-lg-block">
-                <img src="img/logoblanco.png" alt="logoblanco" title="logoblanco" style="width: 30%;">
+                <img src="../img/logoblanco.png" alt="logoblanco" title="logoblanco" style="width: 30%;">
             </div>
 
 
 
             <div>
                 <a href="https://www.facebook.com/" target="Facebook"><img alt="Siguenos en Facebook"
-                        src="iconos/facebook_Mesa de trabajo 1.png" class="p-1" width=32 height=32 /></a>
+                        src="../iconos/facebook_Mesa de trabajo 1.png" class="p-1" width=32 height=32 /></a>
                 <a href="https://www.instagram.com/" target="Instagram"><img alt="Siguenos en Instagram"
-                        src="iconos/instagram_Mesa de trabajo 1.png" class="p-1" width=32 height=32 /></a>
+                        src="../iconos/instagram_Mesa de trabajo 1.png" class="p-1" width=32 height=32 /></a>
                 <a href="https://www.youtube.com/" target="Youtube"><img alt="Siguenos en Youtube"
-                        src="iconos/youtube.png" class="p-1" width=32 height=32 /></a>
+                        src="../iconos/youtube.png" class="p-1" width=32 height=32 /></a>
                 </a>
             </div>
 
@@ -343,7 +322,7 @@
     </footer>
     <!-- Footer -->
 
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 
 </body>
 

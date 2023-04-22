@@ -60,27 +60,6 @@ body {
 }
 
 
-.fondoimagen {
-    background-image: url(/img/fondo2.jpg);
-    background-size: 2400px;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-}
-
-.fondoimagen_enseña {
-    background-image: url(../img/profesor_imagen.jpg);
-    background-size: 2400px;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-}
-
-.contenedor-main {
-    padding: 250px;
-}
-
-
 .hero {
     background-image: url(../img/fondo2.jpg);
     height: 250px;
@@ -92,6 +71,21 @@ body {
 @media (min-width: 768px) {
     .hero {
         background-image: url(../img/fondo2.jpg);
+        height: 650px;
+    }
+}
+
+.hero2 {
+    background-image: url(../img/profesor_imagen.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .hero2 {
+        background-image: url(../img/profesor_imagen.jpg);
         height: 650px;
     }
 }
