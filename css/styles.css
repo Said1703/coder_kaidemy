@@ -81,29 +81,21 @@ body {
 }
 
 
-
-.menu {
-    list-style-type: none;
-    font-size: 18px;
-    background-color: var(--negro3);
-    opacity: 97%;
-    text-align: center;
-    text-decoration: none;
-    font-weight: medium;
-    width: 100%;
-    max-width: 3000px;
-    margin: auto;
-    position: fixed;
-    z-index: 1000;
+.hero {
+    background-image: url(../img/fondo2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 480px) {
-    .menu li {
-        height: 100px;
-        flex-direction: column;
-        text-align: center;
+@media (min-width: 768px) {
+    .hero {
+        background-image: url(../img/fondo2.jpg);
+        height: 650px;
     }
 }
+
 
 .menu .boton-primario {
     justify-items: right;
