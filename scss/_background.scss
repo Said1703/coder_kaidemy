@@ -1,0 +1,29 @@
+.hero {
+    background-image: url(../img/fondo2.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .hero {
+        background-image: url(../img/fondo2.jpg);
+        height: 650px;
+    }
+}
+
+.hero2 {
+    background-image: url(../img/profesor_imagen.jpg);
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+    .hero2 {
+        background-image: url(../img/profesor_imagen.jpg);
+        height: 650px;
+    }
+}

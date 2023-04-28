@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kaidemy Premium</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../favicon/favicondorado.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,71 +16,385 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="body_premium">
 
-    <!--Header-->
-    <header>
-        <nav>
-            <ul class="menu">
-                <li><a href="/index.html"><img class="logohome" src="../img/logoblanco.png"></a></li>
+    <header class="py-4 bg-black"> <!--Header-->
+        <div class="text-center">
+            <li><a class="align-self-center" href="../index.html"><img width="15%" src="../img/logoblanco.png"></a></li>
+        </div><!--Header-->
+    </header>
+    <div class="border-top py-4 bg-black"> <!--navegacion + responsivo desplegable-->
+        <div class="bg-black navbar navbar-expand-lg container-fluid navbar-dark">
+            <a class="navbar-brand d-lg-none fs-2 fw-bold text-uppercase text-light" href="../index.html">
+                Sobre Kaidemy
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <li><a href="../pages/cursos.html">Cursos</a></li>
-                <li><a href="../pages/enseñar.html">Enseña en Kaidemy</a></li>
-                <li><a href="../pages/premium.html">Kaidemy Premium</a></li>
-                <li><a href="#"><input class="boton-secundario" type="button" value="Iniciar sesión"></a></li>
-                <li><a href="../pages/empezar.html"><input class="boton-primario" type="button"
-                            value="Empieza grátis"></a>
-                </li>
-            </ul>
-        </nav>
-    </header> <!--Header-->
+            <div id="navegacion" class="collapse navbar-collapse">
+                <nav
+                    class="navbar-nav container-fluid d-flex flex-md-row justify-content-md-around align-self-center text-center bg-black">
+                    <li><a class="text-light text-decoration-none fs-3 pt-3 pb-3" href="../pages/cursos.html">Cursos</a>
+                    </li>
+                    <li><a class="text-light text-decoration-none fs-3 pt-3 pb-3" href="../pages/enseñar.html">Enseña en
+                            Kaidemy</a>
+                    </li>
+                    <li><a class="text-light text-decoration-none fs-3 pt-3 pb-3" href="../pages/premium.html">Kaidemy
+                            Premium</a>
+                    </li>
+
+
+                    <a href="pages/empezar.html"><button type="button" class="btn btn-lg boton_principal">Empieza
+                            grátis</button></a>
+
+                </nav>
+            </div>
+        </div>
+    </div> <!--navegacion + responsivo desplegable-->
 
     <!--Bienvenida de cada página web-->
     <main>
-
+        <div class="hero2"></div> <!--contenedor principal-->
     </main>
 
+    <section class="container text-center p-5">
+        <h1 class="text-light">¿Qué es Kaidemy Premium?</h1>
+        <p class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et quod maxime quibusdam
+            dignissimos culpa
+            inventore</p>
+        <h3 class="text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, magni! Alias,
+            deleniti,
+            eos provident magni
+            dolore asperiores debitis voluptate perferendis reprehenderit, veritatis ea sapiente impedit quibusdam
+            aspernatur distinctio autem quidem.</h3>
+    </section>
 
-    <footer class="boxfooter"><!--Pie de Página-->
-        <div class="boxfooter1">
-            <div>
-                <img src="../img/logoblanco.png" alt="logoblanco" title="logoblanco">
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci sint labore blanditiis
-                    libero, nobis, nam quasi temporibus, mollitia beatae placeat totam cum! Molestias excepturi quis
-                    rem, cupiditate aliquid beatae!</p>
-            </div>
-            <div class="redes-container">
-                <ul>
-                    <a href="https://www.facebook.com/" target="Facebook"><img alt="Siguenos en Facebook"
-                            src="../iconos/facebook_Mesa de trabajo 1.png" width=32 height=32 /></a>
-                    <a href="https://www.instagram.com/" target="Instagram"><img alt="Siguenos en Instagram"
-                            src="../iconos/instagram_Mesa de trabajo 1.png" width=32 height=32 /></a>
-                    <a href="https://www.youtube.com/" target="Youtube"><img alt="Siguenos en Youtube"
-                            src="../iconos/youtube.png" width=32 height=32 /></a>
-                </ul>
+    <section class="container p-5 text-center"> <!--tablero-->
+        <img src="../img/tablero.png" alt="pagos" title="pagos" style="width: 70%;">
+    </section>
 
+    <section class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card d-grid gap-3 body_premium2 p-5 mt-5 mb-5 rounded-4 border">
+                    <div class="card-text text-center">
+                        <h2 class="text-light">Meditación</h2>
+                    </div>
+                    <div class="card-text text-center pt-4 pb-4 border-top">
+                        <h1 class="text-light">Meditación Mindfulness</h1>
+                    </div>
+                    <div class="pt-5 border-top">
+                        <h5 class="text-light"><img src="../iconos/reloj.png" alt="pagos" title="pagos"
+                                style="width: 10%;"><span class="pe-2"> 25 semanas / 1 clase semanal de 3h</span></h5>
+                    </div>
+                    <div class="text-light pt-3">
+                        <h4>Plan standard s/.640</h4>
+                        <h4>Primeras clases son gratuitas</h4>
+                        <h3 class="pb-5">Total:</h3>
+                    </div>
+                    <div class="text-light pt-4 border-top">
+                        <h1 class="display-1 texto_precio fw-bold pb-3">s/.106</h1>
+                        <h2 class="text-center">A 6 cuotas sin intereses</h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class=" card d-grid gap-3 body_premium2 p-5 mt-5 mb-5 rounded-4 border">
+                    <div class="card-text text-center">
+                        <h2 class="text-light">Artes Escenicas</h2>
+                    </div>
+                    <div class="card-text text-center pt-4 pb-4 border-top">
+                        <h1 class="text-light">Teatro dramático</h1>
+                    </div>
+                    <div class="pt-5 border-top">
+                        <h5 class="text-light"><img src="../iconos/reloj.png" alt="pagos" title="pagos"
+                                style="width: 10%;"><span class="pe-2"> 30 semanas / 1 clase semanal de 3h</span></h5>
+                    </div>
+                    <div class="text-light pt-3">
+                        <h4>Plan standard s/.730</h4>
+                        <h4>Primeras clases son gratuitas</h4>
+                        <h3 class="pb-5">Total:</h3>
+                    </div>
+                    <div class="text-light pt-4 border-top">
+                        <h1 class="display-1 texto_precio fw-bold pb-3">s/.121</h1>
+                        <h2 class="text-center">A 6 cuotas sin intereses</h2>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card d-grid gap-3 body_premium2 p-5 mt-5 mb-5 rounded-4 border">
+                    <div class="card-text text-center">
+                        <h2 class="text-light">Oratoria y liderazgo</h2>
+                    </div>
+                    <div class="card-text text-center pt-4 pb-4 border-top">
+                        <h1 class="text-light">Teatro dramático</h1>
+                    </div>
+                    <div class="pt-5 border-top">
+                        <h5 class="text-light"><img src="../iconos/reloj.png" alt="pagos" title="pagos"
+                                style="width: 10%;"><span class="pe-2"> 30 semanas / 1 clase semanal de 3h</span></h5>
+                    </div>
+                    <div class="text-light pt-3">
+                        <h4>Plan standard s/.730</h4>
+                        <h4>Primeras clases son gratuitas</h4>
+                        <h3 class="pb-5">Total:</h3>
+                    </div>
+                    <div class="text-light pt-4 border-top">
+                        <h1 class="display-1 texto_precio fw-bold pb-3">s/.121</h1>
+                        <h2 class="text-center">A 6 cuotas sin intereses</h2>
+                    </div>
+
+                </div>
             </div>
         </div>
 
-        <div class="boxfooter2">
-            <div>
-                <ul>
-                    <li>Artes Escenicas</li>
-                    <li>Oratoria y Liderazgo</li>
-                    <li>Coaching y PNL</li>
-                    <li>Meditación</li>
-                </ul>
-            </div>
-            <div>
-                <h3>Preguntas Frecuentes</h3>
-                <h3>Terminos y condiciones</h3>
-                <h3>Privacidad</h3>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card d-grid gap-3 body_premium2 p-5 mt-5 mb-5 rounded-4 border">
+                    <div class="card-text text-center">
+                        <h2 class="text-light">Coaching & PNL</h2>
+                    </div>
+                    <div class="card-text text-center pt-4 pb-4 border-top">
+                        <h1 class="text-light">Liderazgo</h1>
+                    </div>
+                    <div class="pt-5 border-top">
+                        <h5 class="text-light"><img src="../iconos/reloj.png" alt="pagos" title="pagos"
+                                style="width: 10%;"><span class="pe-2"> 50 semanas / 1 clase semanal de 3h</span></h5>
+                    </div>
+                    <div class="text-light pt-3">
+                        <h4>Plan standard s/.1200</h4>
+                        <h4>Primeras clases son gratuitas</h4>
+                        <h3 class="pb-5">Total:</h3>
+                    </div>
+                    <div class="text-light pt-4 border-top">
+                        <h1 class="display-1 texto_precio fw-bold pb-3">s/.266</h1>
+                        <h2 class="text-center">A 6 cuotas sin intereses</h2>
+                    </div>
+
+                </div>
             </div>
         </div>
 
-    </footer> <!--Pie de Página-->
+    </section>
+
+
+    <section class="container-fluid"> <!--Profesores-->
+        <h1 class="text-center text-light pt-5">Profesores</h1>
+        <div class="row p-5 align-items-center">
+
+            <div class="col-md-3 p-5 justify-content-center">
+                <div class="card d-flex flex-column justify-content-center shadow p-3 mb-5 rounded-4 body_premium2">
+                    <img src="../img/Prof Alejandro.jpg" alt="alejandro" title="profe alejandro" style="width: 100%"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="text-light">Alejandro Paco</h2>
+                        <div class="card-text">
+                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                corrupti
+                                voluptatum.
+                                Suscipit odit perspiciatis quasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 p-5 justify-content-center">
+                <div class="card d-flex flex-column justify-content-center shadow p-3 mb-5 rounded-4 body_premium2">
+                    <img src="../img/Prof Aldo.jpg" alt="aldo" title="profe aldo" style="width: 100%"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="text-light">Aldo Cortéz</h2>
+                        <div class="card-text">
+                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                corrupti
+                                voluptatum.
+                                Suscipit odit perspiciatis quasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 p-5 justify-content-center">
+                <div class="card d-flex flex-column justify-content-center shadow p-3 mb-5 rounded-4 body_premium2">
+                    <img src="../img/Prof Carina.jpg" alt="carina" title="profe carina" style="width: 100%"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="text-light">Carina Montes</h2>
+                        <div class="card-text">
+                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                corrupti
+                                voluptatum.
+                                Suscipit odit perspiciatis quasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 p-5 justify-content-center">
+                <div class="card d-flex flex-column justify-content-center shadow p-3 mb-5 rounded-4 body_premium2">
+                    <img src="../img/Prof Paul.jpg" alt="paul" title="profe paul" style="width: 100%"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h2 class="text-light">Paul Méndez</h2>
+                        <div class="card-text">
+                            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
+                                corrupti
+                                voluptatum.
+                                Suscipit odit perspiciatis quasi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section> <!--profesores-->
+
+    <section class="mb-5"> <!--formulario nuevo-->
+        <h2 class="text-center pb-4 text-light">Contactos</h2>
+        <div>
+            <div class="container card p-5 shadow p-3 mb-5 body_premium2 rounded">
+                <form class="body_premium2">
+                    <div class="mb-3 p-2">
+                        <label class="form-label text-light fs-3" for="nombre">Nombre y apellidos</label>
+                        <input placeholder="Ejemplo: Juan Perez"
+                            class="form-control form-control-lg body_premium text-light" type="text" name="nombre">
+                    </div>
+
+                    <div class="mb-3 p-2">
+                        <label class="form-label text-light fs-3" for="nombre">Email</label>
+                        <input placeholder="Ejemplo: nombre@gmail.com" class="form-control form-control-lg body_premium"
+                            type="email" name="email">
+                    </div>
+
+                    <div class="mb-3 p-2">
+                        <label class="form-label fs-3 text-light" for="descripcion">Descripción</label>
+                        <textarea placeholder="Por favor escriba su mensaje"
+                            class="form-control form-control-lg body_premium" id="description" cols="20" rows="7"
+                            name="descripcion"> </textarea>
+                    </div>
+
+                </form>
+                <div class="text-center mb-4 body_premium2">
+                    <a href="pages/empezar.html"><button type="button"
+                            class="btn btn-lg boton_premium">Enviar</button></a>
+                </div>
+
+            </div>
+        </div>
+    </section> <!--formulario-->
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-black ">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+            <div class="me-5 d-none d-lg-block">
+                <img src="../img/logoblanco.png" alt="logoblanco" title="logoblanco" style="width: 30%;">
+            </div>
+
+
+
+            <div>
+                <a href="https://www.facebook.com/" target="Facebook"><img alt="Siguenos en Facebook"
+                        src="../iconos/facebook_Mesa de trabajo 1.png" class="p-1" width=32 height=32 /></a>
+                <a href="https://www.instagram.com/" target="Instagram"><img alt="Siguenos en Instagram"
+                        src="../iconos/instagram_Mesa de trabajo 1.png" class="p-1" width=32 height=32 /></a>
+                <a href="https://www.youtube.com/" target="Youtube"><img alt="Siguenos en Youtube"
+                        src="../iconos/youtube.png" class="p-1" width=32 height=32 /></a>
+                </a>
+            </div>
+
+        </section>
+
+
+
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+
+                <div class="row mt-3">
+
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <h4 class="text-uppercase fw-bold mb-4 text-light fs-4">
+                            Kaidemy
+                        </h4>
+                        <p class="text-light">
+                            Aquí en Kaidemy puedes encontrar todo lo que necesitas y más, mejora tu salud a través de
+                            nuestros cursos
+                        </p>
+                    </div>
+
+
+
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h4 class="text-uppercase fw-bold mb-4 text-light">
+                            Cursos
+                        </h4>
+                        <p class="text-light">
+                            <a href="pages/cursos.html" class="text-reset text-decoration-none">Artes Escenicas</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="pages/cursos.html" class="text-reset text-decoration-none">Oratoria y liderazgo</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="pages/cursos.html" class="text-reset text-decoration-none">Coaching & PNL</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="pages/cursos.html" class="text-reset text-decoration-none">Meditación</a>
+                        </p>
+                    </div>
+
+
+                    <!-- ayuda -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h4 class="text-uppercase fw-bold mb-4 text-light">
+                            Ayuda
+                        </h4>
+                        <p class="text-light">
+                            <a href="#" class="text-reset text-decoration-none">Terminos y condiciones</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="#" class="text-reset text-decoration-none">Pagos</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="#" class="text-reset text-decoration-none">Alumnos</a>
+                        </p>
+                        <p class="text-light">
+                            <a href="#!" class="text-reset text-decoration-none">Horarios</a>
+                        </p>
+                    </div>
+                    <!-- ayuda -->
+
+                    <!-- contacto -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <h4 class="text-uppercase fw-bold mb-4 text-light">Contacto</h4>
+                        <p class="text-light"><i class="fas fa-home me-3"></i> Miraflores-Lima, Perú</p>
+                        <p class="text-light">
+                            <i class="fas fa-envelope me-3 text-light"></i>
+                            contactos@Kaidemy.com
+                        </p>
+                        <p class="text-light"><i class="fas fa-phone me-3 text-light"></i> +01 234 567 88</p>
+                        <p class="text-light"><i class="fas fa-print me-3 text-light"></i> +01 234 567 89</p>
+                    </div>
+                    <!-- contacto -->
+                </div>
+
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4 text-light">
+            <p>© 2023 Kaidemy</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <script src="../js/bootstrap.min.js"></script>
 
 </body>
 

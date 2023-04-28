@@ -1,0 +1,23 @@
+/*boton principal */
+.boton_principal {
+    color: #ffff;
+    background-color: #BE002B;
+
+    &:hover {
+        color: #ffff;
+        background-color: #fe0000;
+        font-weight: bold;
+
+    }
+}
+
+.boton_premium {
+    color: #171717;
+    background-color: #c9b673;
+
+    &:hover {
+        color: #171717;
+        background-color: #c9b673;
+        font-weight: bold;
+    }
+}
