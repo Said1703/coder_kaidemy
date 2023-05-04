@@ -47,6 +47,10 @@
   font-weight: bold;
 }
 
+.texto_rojo {
+  color: #BE002B;
+}
+
 html {
   font-size: 72.5%;
 }
