@@ -1,29 +1,43 @@
 .hero {
-    background-image: url(../img/fondo2.jpg);
-    height: 250px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    @include background-imagen($imagen_fondo);
 }
 
 @media (min-width: 768px) {
     .hero {
-        background-image: url(../img/fondo2.jpg);
+        background-image: $imagen_fondo;
         height: 650px;
     }
 }
 
 .hero2 {
-    background-image: url(../img/profesor_imagen.jpg);
-    height: 350px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+    @include background-imagen($fondo_profesor);
 }
 
 @media (min-width: 768px) {
     .hero2 {
-        background-image: url(../img/profesor_imagen.jpg);
+        background-image: $fondo_profesor;
+        height: 650px;
+    }
+}
+
+.hero3 {
+    @include background-imagen($fondo_clases);
+}
+
+@media (min-width: 768px) {
+    .hero3 {
+        background-image: $fondo_clases;
+        height: 650px;
+    }
+}
+
+.hero4 {
+    @include background-imagen($enseñar_fondo);
+}
+
+@media (min-width: 768px) {
+    .hero4 {
+        background-image: $enseñar_fondo;
         height: 650px;
     }
 }

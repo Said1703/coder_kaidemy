@@ -3,18 +3,22 @@ html {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: var(--blanco2);
+    font-family: $fuente;
+    background-color: $blanco2;
 }
 
 .body_premium {
-    background-color: #171717;
+    background-color: $negro3;
 }
 
 .body_premium2 {
-    background-color: #2E2D2D;
+    background-color: $negro2;
 }
 
 .texto_precio {
-    color: #c9b673;
+    color: $dorado;
+}
+
+.texto_rojo {
+    color: $rojoprimario;
 }

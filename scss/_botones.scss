@@ -1,27 +1,23 @@
 /*boton principal */
 .boton_principal {
-    color: #ffff;
-    background-color: #BE002B;
+    color: $blanco1;
+    background-color: $rojoprimario;
 
     &:hover {
-        color: #ffff;
-        background-color: #fe0000;
+        color: $blanco1;
+        background-color: $rojosecundario;
         font-weight: bold;
 
     }
 }
 
 .boton_premium {
-    color: #171717;
-    background-color: #c9b673;
+    color: $negro2;
+    background-color: $dorado;
 
     &:hover {
-        color: #171717;
-        background-color: #c9b673;
+        color: $negro3;
+        background-color: $dorado;
         font-weight: bold;
     }
-}
-
-.texto_rojo {
-    color: #BE002B;
 }
