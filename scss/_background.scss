@@ -1,5 +1,9 @@
 .hero {
-    @include background-imagen($imagen_fondo);
+    background-image: $imagen_fondo;
+    height: 250px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
@@ -10,7 +14,11 @@
 }
 
 .hero2 {
-    @include background-imagen($fondo_profesor);
+    background-image: $fondo_profesor;
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
@@ -21,7 +29,11 @@
 }
 
 .hero3 {
-    @include background-imagen($fondo_clases);
+    background-image: $fondo_clases;
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
@@ -32,7 +44,11 @@
 }
 
 .hero4 {
-    @include background-imagen($enseñar_fondo);
+    background-image: $enseñar_fondo;
+    height: 350px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {

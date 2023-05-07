@@ -26,7 +26,7 @@
     background-repeat: no-repeat;
 }
 
-@mixin background-imagen($fondo_clases) {
+@mixin background-imagen($enseñar_fondo) {
     height: 350px;
     background-size: cover;
     background-position: center center;

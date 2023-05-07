@@ -4,7 +4,8 @@
 /*fuentes*/
 /*background*/
 .hero {
-  height: 350px;
+  background-image: url(../img/fondo2.jpg);
+  height: 250px;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -17,6 +18,7 @@
   }
 }
 .hero2 {
+  background-image: url(../img/profesor_imagen.jpg);
   height: 350px;
   background-size: cover;
   background-position: center center;
@@ -30,6 +32,7 @@
   }
 }
 .hero3 {
+  background-image: url(../img/clases_fondo.jpg);
   height: 350px;
   background-size: cover;
   background-position: center center;
@@ -43,6 +46,7 @@
   }
 }
 .hero4 {
+  background-image: url(../img/enseñar_fondo.jpg);
   height: 350px;
   background-size: cover;
   background-position: center center;
