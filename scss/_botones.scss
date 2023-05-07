@@ -1,23 +1,16 @@
 /*boton principal */
 .boton_principal {
-    color: $blanco1;
-    background-color: $rojoprimario;
+    @include primario-boton();
 
     &:hover {
-        color: $blanco1;
-        background-color: $rojosecundario;
-        font-weight: bold;
-
+        @include primario-boton-hover();
     }
 }
 
 .boton_premium {
-    color: $negro2;
-    background-color: $dorado;
+    @include premium-boton();
 
     &:hover {
-        color: $negro3;
-        background-color: $dorado;
-        font-weight: bold;
+        @include premium-boton-hover();
     }
 }

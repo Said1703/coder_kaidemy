@@ -1,34 +1,21 @@
-@mixin background-imagen($imagen_fondo) {
-    height: 250px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+@mixin primario-boton {
+    color: $blanco1;
+    background-color: $rojoprimario;
 }
 
-@mixin background-imagen($fondo_profesor) {
-    height: 350px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+@mixin primario-boton-hover {
+    color: $blanco1;
+    background-color: $rojosecundario;
+    font-weight: bold;
 }
 
-@mixin background-imagen($fondo_clases) {
-    height: 350px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+@mixin premium-boton {
+    color: $negro2;
+    background-color: $dorado;
 }
 
-@mixin background-imagen($fondo_clases) {
-    height: 350px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-
-@mixin background-imagen($enseñar_fondo) {
-    height: 350px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
+@mixin premium-boton-hover {
+    color: $negro3;
+    background-color: $dorado;
+    font-weight: bold;
 }
